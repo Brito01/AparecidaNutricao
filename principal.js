@@ -38,9 +38,13 @@ tdImc.textContent = imc.toFixed(2);
    }
 }
 
-titulo.addEventKListener("click, mostraMensagem")
+var botaoAdicionar = document.querySelector("#adicionar-paciente");
+botaoAdicionar.addEventListener("clink",function(){
+    console.log("oi, cliente no botão");
+});
 
+titulo.addEventListener("click",function() { 
 
-function mostraMensagem(){
-    console.log("Olá eu fui clicado!");
-}
+});
+
+//
