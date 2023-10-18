@@ -29,14 +29,23 @@ header .container:before{
 	content: '';
 	display:inline-block;
 	height: 100%;
-	vertical-align:	middle;
+	vertical-align:	middle; 
 }
 
 .container{
-	width: 60%;
-	height: 100%;
-	margin: 0 auto;
-}
+		float: right;
+		width: 40%;
+		height: 100%;
+		margin-right: 50px;
+		
+  }
+
+  .conteiner2{
+		float: left;
+		height: 50%;
+		width:50%;
+		margin-left: 50px;
+  }
 
 section{
 	margin: 2em 0;
